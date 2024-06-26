@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DesignPatterns\NewFolder\**" />
+    <Content Remove="DesignPatterns\NewFolder\**" />
+    <EmbeddedResource Remove="DesignPatterns\NewFolder\**" />
+    <None Remove="DesignPatterns\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MediatR" Version="11.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />

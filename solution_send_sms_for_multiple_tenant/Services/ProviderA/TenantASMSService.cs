@@ -1,4 +1,5 @@
 ﻿using solution_send_sms_for_multiple_tenant.Constants;
+using solution_send_sms_for_multiple_tenant.DesignPatterns.TemplateMethod;
 using solution_send_sms_for_multiple_tenant.Interfaces;
 
 namespace solution_send_sms_for_multiple_tenant.Services.ProviderA

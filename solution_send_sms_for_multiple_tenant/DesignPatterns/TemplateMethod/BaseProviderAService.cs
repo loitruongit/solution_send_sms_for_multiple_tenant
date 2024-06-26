@@ -1,11 +1,11 @@
 ﻿using solution_send_sms_for_multiple_tenant.Interfaces;
 using solution_send_sms_for_multiple_tenant.Requests;
 
-namespace solution_send_sms_for_multiple_tenant.Services.ProviderB
+namespace solution_send_sms_for_multiple_tenant.DesignPatterns.TemplateMethod
 {
-    public abstract class BaseProviderBService : ISMSService
+    public abstract class BaseProviderAService : ISMSService
     {
-        public BaseProviderBService()
+        public BaseProviderAService()
         {
 
         }
